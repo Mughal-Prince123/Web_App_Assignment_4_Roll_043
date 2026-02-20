@@ -66,7 +66,7 @@ Follow these steps to run the project locally on your machine.
 ### 1. Clone the repository
 
 ```bash
-git clone <https://github.com/Mughal-Prince123/Web_App_Assignment_4_Roll_043>
+git clone https://github.com/Mughal-Prince123/Web_App_Assignment_4_Roll_043
 cd Web_App_Assignment_4_Roll_043
 
 ```
