@@ -29,6 +29,9 @@
 
 ---
 
+![Home Page](./src/screenshots/cart.png)
+
+
 ## 📂 Folder Structure
 
 The project follows a modular architecture for better maintainability:
