@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* In v4, we use standard CSS for base styles or the @theme block */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: var(--color-gray-50);
+    color: var(--color-gray-900);
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom classes using the @apply directive still work */
+.btn-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
