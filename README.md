@@ -29,6 +29,14 @@
 
 ---
 
+![Home Page](./src/screenshots/landing.png)
+
+![Home Page](./src/screenshots/login.png)
+
+![Home Page](./src/screenshots/home.png)
+
+![Home Page](./src/screenshots/product.png)
+
 ![Home Page](./src/screenshots/cart.png)
 
 
